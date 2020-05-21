@@ -41,6 +41,7 @@ class _QuizPageState extends State<QuizPage> {
                 title: "Quiz End",
                 desc: "You\'ve finished the quiz, click CANCEL to reset")
             .show();
+        //TODO add in count of correct answers and incorrect answers
         quizBrain.reset();
         scoreKeeper = [];
       } else {
